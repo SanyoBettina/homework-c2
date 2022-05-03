@@ -1,72 +1,75 @@
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: white;
-    line-height: 1.3;    
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  line-height: 1.3;
 }
 
 .leftpart {
-    background-color: rgba(68, 69, 69, 0.918);
-    width:25%;
-    padding: 50px;
-    flex:0 1;
-    color:rgb(222, 222, 222);
+  background-color: rgba(68, 69, 69, 0.918);
+  width: 25%;
+  padding: 50px;
+  flex: 0 1;
+  color: rgb(222, 222, 222);
 }
 
 .main {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(216, 229, 230);
-    width:40%;
-    padding:50px;
-    color: rgb(53, 51, 51);
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(216, 229, 230);
+  width: 40%;
+  padding: 50px;
+  color: rgb(53, 51, 51);
 }
 
 .general-info {
   display: flex;
-  justify-content: space-between;    
+  justify-content: space-between;
 }
 
 .personal-info {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 #myname {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight: 900 ;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 #myjob {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
 }
 
-h1, h2, h3{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
 }
 
 .contact {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-.url a:link, a:visited{
-    color: white;
-    text-decoration: none;
+.url a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
 }
-.url a:hover, a:active{
-    color:blueviolet;
-    text-decoration: underline;
+.url a:hover,
+a:active {
+  color: blueviolet;
+  text-decoration: underline;
 }
 
 hr {
@@ -74,35 +77,35 @@ hr {
 }
 
 .experience {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-left-section {
-    flex: 1;
-    padding-top: 14px;
+  flex: 1;
+  padding-top: 14px;
 }
 
 .about {
-    flex: 3;
-    padding: 5px 0px 0px 15px;
-    border-left: 2px solid;
+  flex: 3;
+  padding: 5px 0px 0px 15px;
+  border-left: 2px solid;
 }
 
 .main-section {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .company {
-    text-transform: uppercase;
-    font-weight: 600;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .title {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .title:first-letter {
-    font-size: 200%;
+  font-size: 200%;
 }
