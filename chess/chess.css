@@ -1,0 +1,21 @@
+table {
+    border: 1px solid black;
+    margin: 0 auto;
+    table-layout:fixed;
+    width: 600px;
+    height: 600px;
+    border-spacing: 0;
+}
+
+.even :nth-child(odd) {
+    background-color: gray;
+}
+
+.odd :nth-child(even){
+    background-color: grey;
+}
+
+td {
+font-size: 50px;
+text-align: center;
+}
